@@ -2,13 +2,8 @@ import styled from 'styled-components';
 import { ButtonProps } from './Button.types';
 
 export const StyledButton = styled.button<ButtonProps>`
-  border: 0;
   line-height: 1;
   font-size: 15px;
-  cursor: pointer;
-  font-weight: 700;
-  font-weight: bold;
-  border-radius: 3px;
   display: inline-block;
   padding: ${(props) =>
     props.size === 'small'
