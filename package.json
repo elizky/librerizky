@@ -1,6 +1,6 @@
 {
-  "name": "liberizky",
-  "version": "1.0.0",
+  "name": "librerizky",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -9,11 +9,15 @@
     "build": "rollup -c --bundleConfigAsCjs",
     "test": "jest",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "create:component": "node scripts/createComponent.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
     "prop-types": "^15.8.1",
     "styled-components": "^5.3.11"
   },
