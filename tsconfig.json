@@ -12,7 +12,18 @@
     "moduleResolution": "node",
     "emitDeclarationOnly": true,
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
-  "exclude": ["dist", "node_modules", "src/**/**/*.test.tsx", "src/**/**/*.stories.tsx", "storybook-static", ".storybook"]
+  "exclude": [
+    "dist",
+    "node_modules",
+    "src/**/**/*.test.tsx",
+    "src/**/**/*.stories.tsx",
+    "storybook-static",
+    ".storybook"
+  ]
 }

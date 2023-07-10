@@ -15,11 +15,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "class-variance-authority": "^0.6.1",
+    "clsx": "^1.2.1",
     "fs": "^0.0.1-security",
     "lodash": "^4.17.21",
+    "lucide-react": "^0.259.0",
     "path": "^0.12.7",
     "prop-types": "^15.8.1",
-    "styled-components": "^5.3.11"
+    "styled-components": "^5.3.11",
+    "tailwind-merge": "^1.13.2",
+    "tailwindcss-animate": "^1.0.6"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.2",
